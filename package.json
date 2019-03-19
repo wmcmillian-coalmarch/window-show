@@ -1,0 +1,29 @@
+{
+  "name": "window-show",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.14",
+    "domready": "^1.0.8",
+    "lodash": "^4.17.11",
+    "progressbar.js": "^1.0.1",
+    "urijs": "^1.19.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  }
+}
