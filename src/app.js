@@ -22,7 +22,7 @@ if(!q.number) {
 console.log(q);
 
 
-window.fitText(document.getElementById('container'));
+window.fitText(document.getElementById('container'), 1.2);
 
 var progressBar = new ProgressBar.Circle('#container', {
     strokeWidth: 3,
