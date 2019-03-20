@@ -1,6 +1,5 @@
 import './base.scss';
 import ProgressBar from 'progressbar.js';
-import fitty from 'fitty';
 import URI from 'urijs';
 import './fittext.js';
 
