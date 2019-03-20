@@ -5,6 +5,7 @@ import './fittext.js';
 
 let url = new URI();
 let q = url.search(true);
+console.log(q, url, window.location);
 if(!q) {
     q = {};
 }
@@ -17,6 +18,9 @@ else {
 if(!q.number) {
     q.number = '?'
 }
+
+console.log(q);
+
 
 window.fitText(document.getElementById('container'));
 
